@@ -1,7 +1,7 @@
 
 
 // Map template for spawning the shuttle
-/datum/map_template/shuttle/overmap/tether/tabiranth
+/datum/map_template/shuttle/overmap/generic/tabiranth
 	name = "OM Ship - Tabiranth"
 	desc = "A prototype deployable assault shuttle."
 	suffix = "shelter_6.dmm"
@@ -11,7 +11,7 @@
 /area/shuttle/tabiranth
 	name = "\improper Tabiranth"
 	icon_state = "blue-red2"
-	flags = RAD_SHIELDED | BLUE_SHIELDED
+	flags = RAD_SHIELDED
 	requires_power = 1
 
 // The shuttle's 'shuttle' computer
